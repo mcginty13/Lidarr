@@ -21,9 +21,8 @@ namespace NzbDrone.Core.Indexers.Soulseek
             {
                 releases.Add(new ReleaseInfo
                 {
-                    DownloadProtocol = DownloadProtocol.Soulseek,
-                    
-                })
+                    DownloadProtocol = DownloadProtocol.Soulseek
+                });
             });
             return releases;
         }
